@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int find_strlen(char *s);
+int check_palindrome(char *s, int len, int index);
+int is_palindrome(char *s);
 int is_divisible(int num, int div);
 int is_prime_number(int n);
 int find_sqrt(int num, int root);

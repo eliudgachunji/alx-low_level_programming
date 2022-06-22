@@ -11,28 +11,22 @@
 int largest_number(int a, int b, int c)
 
 {
+int largest = b;
 
-int largest;
-largest = largest_number(a, b, c);
-if (a > b && b > c)
-
-{
-
-printf("%d is the largest number\n", largest);
-
-}
-else if (b > a && a > c)
+if (a > b)
 
 {
 
-printf("%d is the largest number\n", largest);
+largest = a;
 
 }
 
-else
+else if (c > b)
 
 {
-printf("%d is the largest number", largest);
+
+largest = c;
+
 }
 
 return (largest);

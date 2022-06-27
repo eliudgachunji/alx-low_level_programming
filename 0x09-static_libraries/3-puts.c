@@ -20,5 +20,3 @@ _putchar(str[index]);
 _putchar('\n');
 
 }
-
-© 2022 G
